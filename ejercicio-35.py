@@ -51,8 +51,8 @@ try:
     # b. Agrego 20 unidades al saldo de Bob.
     bob.agregar_dinero(20)
 
-    # Agrego 30 unidades adicionales al saldo de Bob para que pueda realizar la siguiente operación.
-    bob.agregar_dinero(30)
+    """ El ejercicio se plantea dar error y ver cómo se maneja el error, la siguiente línea que agrega 30 unidades adicionales al saldo de Bob es para poder ejecutar el resto de acciones. Elimna la almohadilla y se verá un resultado diferente. """
+    # bob.agregar_dinero(30) 
 
     # c. Transfiero 80 unidades de Bob a Alicia.
     alicia.transferir_dinero(bob, 80)
